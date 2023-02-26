@@ -1,3 +1,4 @@
+package Leetcode;
 class Solution {
     public int maxArea(int[] height) {
         int Maxarea = Integer.MIN_VALUE;
