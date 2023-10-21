@@ -17,4 +17,4 @@ class Solution(object):
         backtr(1, [])
         return output
 
-print(Solution.combine(0,3,3))
+print(Solution.combine(0,4,3))
