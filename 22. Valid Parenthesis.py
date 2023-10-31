@@ -10,7 +10,7 @@ class Solution:
                 if mapping[char] != top_element:  # 如果弹出的元素与当前字符不匹配
                     return False
             else:
-                stack.append(char)  # 如果字符是开放括号，将其推入栈中
+                stack.append(char)  # 如果字符是开放括号，将其推入栈中。
                 
         return not stack  # 如果栈为空，返回 True，否则返回 False
 
