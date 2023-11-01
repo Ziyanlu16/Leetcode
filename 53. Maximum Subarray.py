@@ -8,7 +8,7 @@ class Solution(object):
         current_sum = 0
 
         for i in range(len(nums)):
-            current_sum += nums[i]
+            current_sum += nums[i] #update
             current_sum = max(current_sum + nums[i], nums[i])
             
             max_sum = max(max_sum, current_sum)
