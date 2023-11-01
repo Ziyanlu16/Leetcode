@@ -4,6 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        
         left = 0
         hashmap = {}
         max_length = 0
