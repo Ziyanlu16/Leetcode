@@ -20,7 +20,7 @@ class Solution(object):
                 current_digit = digits[index]  # 获取当前数字字符
                 letters = dic[current_digit]  # 从字典中获取字母字符串
 
-                for letter in letters:  # 遍历字母字符串的每个字符.
+                for letter in letters:  # 遍历字母字符串的每个字符
                     backtracking(temp_combination+letter, index+1) 
         
         backtracking('', 0)
