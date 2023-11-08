@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         
-        left = 0
+        left = 0 #Two pointers
         hashmap = {}
         max_length = 0
         for right in range(len(s)):
