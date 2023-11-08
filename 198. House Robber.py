@@ -6,7 +6,7 @@ class Solution(object):
         """
         n = len(nums)
 
-        if n == 0:
+        if n == 0: #dynamic programming
             return 0
         if n == 1:
             return nums[0]
